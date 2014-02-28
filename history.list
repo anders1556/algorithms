@@ -1,0 +1,56 @@
+  544  git clone https://github.com/anders1556/test.git
+  545  ping baidu.com
+  546  git clone https://github.com/anders1556/test.git
+  547  ls
+  548  mv test temp/
+  549  cd temp
+  550  ls
+  551  cd test
+  552  ls
+  553  git staus -s
+  554  git status 
+  555  git status -s
+  556  vim test.java
+  557  git status -s
+  558  git add .
+  559  git status -s
+  560  git commit "modify 1"
+  561  git commit -m"modify 1"
+  562  git staus -s
+  563  git status -s
+  564  vim test.java
+  565  git staus -s
+  566  git status -s
+  567  git add .
+  568  git status -s
+  569  git diff test.java
+  570  git diff --cached test.java
+  571  vim test.java
+  572  git diff test.java
+  573  git diff --cached test.java
+  574  git commit -m"final modify"
+  575  git status -s
+  576  git add .
+  577  git commit -m"final commit"
+  578  git push origin master
+  579  git remote -v
+  580  git config -l
+  581  git branch
+  582  git branch branch1
+  583  git branch
+  584  git checkout branch1
+  585  git barnch
+  586  git branch
+  587  ls
+  588  vim branch1.java
+  589  git add .
+  590  git commit -m"branch test"
+  591  git branch master
+  592  git checkout master
+  593  ls
+  594  git status -s
+  595  git checkout branch1
+  596  git status -s
+  597  ls
+  598  git push origin branch1
+  599  ls
