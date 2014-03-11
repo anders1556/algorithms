@@ -3,9 +3,9 @@ package sort;
 public class StraightInsertSort {
 	public void straightInsertSort(double[] sorted){
 		
-		int	lenght = sorted.length;
+		int length = sorted.length;
 		
-		for(int j=2; j<lenght; ++j){
+		for(int j=2; j<length; ++j){
 			
 			if(sorted[j] < sorted[j-1]){			
 				sorted[0] = sorted[j] ;
