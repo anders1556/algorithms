@@ -1,7 +1,7 @@
 //define
 class Singleton
 {
-publci:
+public:
 	static Singleton* Instance();
 protected:
 	Singleton();
